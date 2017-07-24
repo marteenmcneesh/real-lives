@@ -1,0 +1,18 @@
+{
+  "name": "real-lives",
+  "version": "1.0.0",
+  "description": "A game about real life.",
+  "main": "real-lives.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin McNeish",
+  "license": "ISC",
+  "dependencies": {
+    "fibers": "^2.0.0",
+    "nicl": "^0.1.2"
+  }
+}
