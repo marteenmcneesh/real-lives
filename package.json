@@ -2,7 +2,7 @@
   "name": "real-lives",
   "version": "1.0.0",
   "description": "A game about real life.",
-  "main": "real-lives.js",
+  "main": "engine.js",
   "directories": {
     "lib": "lib"
   },
