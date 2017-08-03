@@ -1,19 +1,13 @@
-let countryList = ["United States", "Canada", "Mexico"];
-let genderList = ["male", "female"];
-let namesUS_male = ["Albert", "Bill", "Chris", "David", "Edward"];
-let namesUS_female = ["Anne", "Bertha", "Catherine"];
-let namesCA_male = ["Albert", "Bill", "Pierre"];
-let namesCA_female = ["Alberta", "Bertha", "Francine"];
-let namesMX_male = ["Alberto", "Bartolo", "Carlos"];
-let namesMX_female = ["Ana", "Beatriz", "Carolina"];
+// This imports the list of countries in the game from constants.js
+const countryList = require(./constants.js);
 
 // Define birth country
 let birthCountry = countryList[Math.floor(Math.random() * countryList.length)];
 
-// Define gender. Not yet "birth gender". I haven't created the module to do being trans.
+// Define gender
 let gender = genderList[Math.floor(Math.random() * genderList.length)];
 
-// Define name. Fuck it man, maybe this will be "birth name" someday, too.
+// Define name
 let name;
 if (birthCountry == "United States") {
   if (gender == "male") {
