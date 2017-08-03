@@ -1,6 +1,10 @@
 // This imports the list of countries in the game from constants.js
 const countryList = require(./constants.js);
 
+// Use this code to define a birth country... maybe have to move this to another module?
+let countries = Object.keys(countryList) //makes an array out of the keys in the countryList object, allegedly
+let birthCountry = countryList[countries[randomInteger[countries.length]]] //picks out a birth country from countryList
+
 // Define birth country
 let birthCountry = countryList[Math.floor(Math.random() * countryList.length)];
 
